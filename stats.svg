@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470">
+<rect width="100%" height="100%" rx="18" fill="#fff"/><rect x="1" y="1" width="898" height="468" rx="18" fill="none" stroke="#171717"/>
+<circle cx="25" cy="25" r="5" fill="#111"/><circle cx="43" cy="25" r="5" fill="#777"/><circle cx="61" cy="25" r="5" fill="#bbb"/>
+<text x="82" y="30" font-family="monospace" font-size="13" fill="#111">afzal@github:~$ ./stats.sh</text>
+<line x1="20" y1="45" x2="880" y2="45" stroke="#ddd"/>
+<rect x="28" y="72" width="400" height="58" rx="8" fill="#fafafa" stroke="#e4e4e4"/>
+<text x="46" y="92" font-family="monospace" font-size="9" fill="#777">CURRENT STREAK</text>
+<text x="46" y="116" font-family="monospace" font-size="18" font-weight="700" fill="#111">0 days</text>
+<rect x="453" y="72" width="400" height="58" rx="8" fill="#fafafa" stroke="#e4e4e4"/>
+<text x="471" y="92" font-family="monospace" font-size="9" fill="#777">LONGEST STREAK</text>
+<text x="471" y="116" font-family="monospace" font-size="18" font-weight="700" fill="#111">0 days</text>
+<rect x="28" y="144" width="400" height="58" rx="8" fill="#fafafa" stroke="#e4e4e4"/>
+<text x="46" y="164" font-family="monospace" font-size="9" fill="#777">CONTRIBUTIONS</text>
+<text x="46" y="188" font-family="monospace" font-size="18" font-weight="700" fill="#111">0</text>
+<rect x="453" y="144" width="400" height="58" rx="8" fill="#fafafa" stroke="#e4e4e4"/>
+<text x="471" y="164" font-family="monospace" font-size="9" fill="#777">ACTIVE DAYS</text>
+<text x="471" y="188" font-family="monospace" font-size="18" font-weight="700" fill="#111">0</text>
+<rect x="28" y="216" width="400" height="58" rx="8" fill="#fafafa" stroke="#e4e4e4"/>
+<text x="46" y="236" font-family="monospace" font-size="9" fill="#777">BEST DAY</text>
+<text x="46" y="260" font-family="monospace" font-size="18" font-weight="700" fill="#111">0</text>
+<rect x="453" y="216" width="400" height="58" rx="8" fill="#fafafa" stroke="#e4e4e4"/>
+<text x="471" y="236" font-family="monospace" font-size="9" fill="#777">AVG / ACTIVE DAY</text>
+<text x="471" y="260" font-family="monospace" font-size="18" font-weight="700" fill="#111">0</text>
+<text x="28" y="305" font-family="monospace" font-size="11" fill="#555">MONTHLY CONTRIBUTIONS</text>
+<text x="28" y="458" font-family="monospace" font-size="10" fill="#777">afzal@github:~$ <tspan fill="#111">echo "keep building"</tspan></text></svg>

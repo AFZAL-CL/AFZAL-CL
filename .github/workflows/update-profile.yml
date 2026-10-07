@@ -1,0 +1,41 @@
+name: Update GitHub Profile Art
+
+on:
+  schedule:
+    - cron: "17 6 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r scripts/requirements.txt
+
+      - name: Fetch contribution data
+        run: python scripts/fetch_contributions.py
+
+      - name: Generate heatmap
+        run: python scripts/generate_heatmap_svg.py
+
+      - name: Generate stats
+        run: python scripts/generate_stats_svg.py
+
+      - name: Commit generated profile assets
+        uses: stefanzweifel/git-auto-commit-action@v7
+        with:
+          commit_message: "chore: update profile statistics"
+          file_pattern: "data/contributions.json contrib-heatmap.svg stats.svg"
