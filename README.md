@@ -1,99 +1,37 @@
 <div align="center">
-  <img src="./shot.gif" alt="Afzal Khan — animated profile banner" width="100%" />
-</div>
 
-<br />
+<!-- animated contribution graph: real data, boxes reveal cell by cell
+     (regenerated daily by .github/workflows/update-profile-art.yml) -->
 
-<div align="center">
-  <img src="./afzal-ascii-portrait.svg" alt="Afzal Khan ASCII portrait" width="100%" />
-</div>
+<h3><code>afzal@github ~ $ ./contributions.sh</code></h3>
 
-<br />
+<img src="./contrib-heatmap.svg" width="860" alt="Afzal's GitHub contribution graph — auto-refreshed daily" />
 
-### ❯ What I'm Building
+<br>
+<br>
 
-- Engineering **Drift Intelligence System (DIS)** — a machine-learning pipeline for detecting and explaining data drift using QLoRA and RAG.
-- Building **EventOne** — a modern event ecosystem with event management, ticketing, QR verification, real-time check-in, and digital credentials.
-- Exploring the intersection of **3D web experiences, AI/ML, and production backend systems**.
+<!-- portrait (left) + streak/numbers card (right), matching the reference layout -->
 
----
-
-### ❯ Featured Projects
+<h3><code>afzal@github ~ $ whoami</code></h3>
 
 <table>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>Drift Intelligence System (DIS)</h4>
-      <p>A machine-learning system for detecting data drift, explaining drift, retrieving relevant information, and recommending model retraining.</p>
-      <code>Python</code> <code>TinyLlama</code> <code>QLoRA</code> <code>RAG</code> <code>UMAP</code>
-    </td>
-    <td width="50%" valign="top">
-      <h4>EventOne</h4>
-      <p>A modern event ecosystem featuring event management, ticketing, QR verification, real-time check-in, and blockchain-based digital credentials.</p>
-      <code>Java</code> <code>Spring Boot</code> <code>Kafka</code> <code>Redis</code> <code>Web3</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h4>Food Alchemy</h4>
-      <p>A smart food-waste management application combining mobile development, machine learning, and digital/Web3 payments.</p>
-      <code>React Native</code> <code>ML</code> <code>Web3</code>
-    </td>
-    <td width="50%" valign="top">
-      <h4>AI Study Planner</h4>
-      <p>An AI-powered study planning and productivity application for personalized learning journeys.</p>
-      <code>Next.js</code> <code>React</code> <code>Gemini API</code>
-    </td>
-  </tr>
+<tr>
+<td valign="top"><img src="./afzal-ascii.svg" width="420" alt="Afzal Khan — ASCII portrait" /></td>
+<td valign="top"><img src="./stats.svg" width="420" alt="Afzal's GitHub streak and contribution stats — auto-refreshed daily" /></td>
+</tr>
 </table>
 
----
+<br>
+<br>
 
-### ❯ Tech Stack
+<h3><code>afzal@github ~ $ ./links.sh</code></h3>
 
-**Frontend & Creative**  
-`React` `Next.js` `TypeScript` `JavaScript` `Tailwind CSS` `GSAP` `Three.js` `React Three Fiber`
+<p><b>Fullstack Developer · AI Builder · Instructor</b></p>
 
-**Backend & Infrastructure**  
-`Java` `Spring Boot` `Node.js` `Express` `Python` `Flask` `Docker` `GitHub Actions`
+[![GitHub](https://img.shields.io/badge/GitHub-AFZAL--CL-0d1117?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AFZAL-CL)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Afzal%20Khan-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Afzal%20Khan-0d1117?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/AFZAL-CL)
 
-**Database & Messaging**  
-`MongoDB` `PostgreSQL` `Redis` `Kafka`
+<br>
 
-**AI / Machine Learning**  
-`LLMs` `RAG` `QLoRA` `Sentence Transformers` `HDBSCAN` `UMAP`
-
----
-
-### ❯ GitHub Activity
-
-<div align="center">
-  <img src="./contrib-heatmap.svg" alt="Afzal Khan GitHub contribution heatmap" width="100%" />
 </div>
-
-<br />
-
-<div align="center">
-  <img src="./stats.svg" alt="Afzal Khan GitHub statistics" width="100%" />
-</div>
-
----
-
-### ❯ Achievements & Experience
-
-- **National Hackathon Winner**
-- **Technical Head** @ Student Tech Club
-- **Freelance Developer** with experience in large-scale frontend systems
-- Strong foundation in **Data Structures, Algorithms**, and complex problem-solving.
-
----
-
-### ❯ Connect
-
-[LinkedIn](https://linkedin.com/in/YOUR_LINKEDIN) · [Email](mailto:YOUR_EMAIL) · [Portfolio](YOUR_PORTFOLIO_URL)
-
----
-
-<p align="center">
-  <sub>Built with Python, SVG, GitHub Actions, and a little obsession with good developer profiles.</sub>
-</p>
