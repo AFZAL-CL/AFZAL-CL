@@ -386,6 +386,6 @@
 <rect x="88" y="212" width="13" height="13" rx="2" fill="#196127"/>
 <text x="170" y="223" font-family="monospace" font-size="11" fill="#555">More</text>
 <text x="420" y="223" font-family="monospace" font-size="11" fill="#111">streak: 0 days</text>
-<text x="650" y="223" font-family="monospace" font-size="11" fill="#111">best: 0 on None</text>
+<text x="650" y="223" font-family="monospace" font-size="11" fill="#111">best: 0 on 2025-10-05</text>
 <style>@media (prefers-reduced-motion:no-preference) { rect[data-date] { opacity:0; animation: pop .18s ease-out forwards; } @keyframes pop { to { opacity:1; } } }</style>
 </svg>
