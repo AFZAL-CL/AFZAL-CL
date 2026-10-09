@@ -17,7 +17,7 @@ CELL, GAP = 13, 3
 def main():
     data = json.loads(DATA.read_text())
     days = {d["date"]: d["count"] for d in data.get("days", [])}
-    stats = data.get("stats", {})
+    total_contribs = data.get("total_contributions", 0)
 
     if days:
         end = date.fromisoformat(max(days))
@@ -53,11 +53,12 @@ def main():
 <rect x="1" y="1" width="{W-2}" height="{H-2}" rx="18" fill="none" stroke="#171717"/>
 <circle cx="25" cy="25" r="5" fill="#111"/><circle cx="43" cy="25" r="5" fill="#777"/><circle cx="61" cy="25" r="5" fill="#bbb"/>
 <text x="82" y="30" font-family="monospace" font-size="13" fill="#111">afzal@github:~$ ./contributions.sh</text>
-<text x="{W-25}" y="30" text-anchor="end" font-family="monospace" font-size="11" fill="#777">[ {stats.get('total', 0):,} contributions ]</text>
+<text x="{W-25}" y="30" text-anchor="end" font-family="monospace" font-size="11" fill="#777">[ {total_contribs:,} contributions ]</text>
 <line x1="20" y1="45" x2="{W-20}" y2="45" stroke="#ddd"/>
 ''']
     for x, y, key, count, level in cells:
-        svg.append(f'<rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="2" fill="{PALETTE[level]}" data-date="{key}" data-count="{count}"/>')
+        delay = ((x - LEFT) / 16 + (y - TOP) / 16 * 0.5) * 0.03
+        svg.append(f'<rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" rx="2" fill="{PALETTE[level]}" data-date="{key}" data-count="{count}" style="animation-delay:{delay:.2f}s"/>')
     svg.append(f'''<style>@media (prefers-reduced-motion:no-preference) {{ rect[data-date] {{ opacity:0; animation: pop .18s ease-out forwards; }} @keyframes pop {{ to {{ opacity:1; }} }} }}</style>
 </svg>''')
     OUT.write_text("\n".join(svg), encoding="utf-8")
