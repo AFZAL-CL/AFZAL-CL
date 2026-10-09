@@ -14,12 +14,9 @@
 
 <h3><code>afzal@github ~ $ whoami</code></h3>
 
-<table>
-<tr>
-<td valign="top"><img src="./afzal-ascii.svg" width="420" alt="Afzal Khan — ASCII portrait" /></td>
-<td valign="top"><img src="./stats.svg" width="420" alt="Afzal's GitHub streak and contribution stats — auto-refreshed daily" /></td>
-</tr>
-</table>
+<img src="./afzal-ascii.svg" width="420" alt="Afzal Khan — ASCII portrait" />
+&nbsp;&nbsp;
+<img src="./stats.svg" width="420" alt="Afzal's GitHub streak and contribution stats — auto-refreshed daily" />
 
 <br>
 <br>
