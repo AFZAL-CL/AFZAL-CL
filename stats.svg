@@ -1,25 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="470" viewBox="0 0 900 470">
-<rect width="100%" height="100%" rx="18" fill="#fff"/><rect x="1" y="1" width="898" height="468" rx="18" fill="none" stroke="#171717"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="940" viewBox="0 0 900 940">
+<rect width="100%" height="100%" rx="18" fill="#fff"/><rect x="1" y="1" width="898" height="938" rx="18" fill="none" stroke="#171717"/>
 <circle cx="25" cy="25" r="5" fill="#111"/><circle cx="43" cy="25" r="5" fill="#777"/><circle cx="61" cy="25" r="5" fill="#bbb"/>
 <text x="82" y="30" font-family="monospace" font-size="13" fill="#111">afzal@github:~$ ./stats.sh</text>
 <line x1="20" y1="45" x2="880" y2="45" stroke="#ddd"/>
-<rect x="28" y="72" width="400" height="58" rx="8" fill="#fafafa" stroke="#e4e4e4"/>
-<text x="46" y="92" font-family="monospace" font-size="9" fill="#777">CURRENT STREAK</text>
-<text x="46" y="116" font-family="monospace" font-size="18" font-weight="700" fill="#111">0 days</text>
-<rect x="453" y="72" width="400" height="58" rx="8" fill="#fafafa" stroke="#e4e4e4"/>
-<text x="471" y="92" font-family="monospace" font-size="9" fill="#777">LONGEST STREAK</text>
-<text x="471" y="116" font-family="monospace" font-size="18" font-weight="700" fill="#111">0 days</text>
-<rect x="28" y="144" width="400" height="58" rx="8" fill="#fafafa" stroke="#e4e4e4"/>
-<text x="46" y="164" font-family="monospace" font-size="9" fill="#777">CONTRIBUTIONS</text>
-<text x="46" y="188" font-family="monospace" font-size="18" font-weight="700" fill="#111">0</text>
-<rect x="453" y="144" width="400" height="58" rx="8" fill="#fafafa" stroke="#e4e4e4"/>
-<text x="471" y="164" font-family="monospace" font-size="9" fill="#777">ACTIVE DAYS</text>
-<text x="471" y="188" font-family="monospace" font-size="18" font-weight="700" fill="#111">0</text>
-<rect x="28" y="216" width="400" height="58" rx="8" fill="#fafafa" stroke="#e4e4e4"/>
-<text x="46" y="236" font-family="monospace" font-size="9" fill="#777">BEST DAY</text>
-<text x="46" y="260" font-family="monospace" font-size="18" font-weight="700" fill="#111">0</text>
-<rect x="453" y="216" width="400" height="58" rx="8" fill="#fafafa" stroke="#e4e4e4"/>
-<text x="471" y="236" font-family="monospace" font-size="9" fill="#777">AVG / ACTIVE DAY</text>
-<text x="471" y="260" font-family="monospace" font-size="18" font-weight="700" fill="#111">0</text>
-<text x="28" y="305" font-family="monospace" font-size="11" fill="#555">MONTHLY CONTRIBUTIONS</text>
-<text x="28" y="458" font-family="monospace" font-size="10" fill="#777">afzal@github:~$ <tspan fill="#111">echo "keep building"</tspan></text></svg>
+<rect x="35" y="100" width="410" height="90" rx="8" fill="#fafafa" stroke="#e4e4e4"/>
+<text x="60" y="135" font-family="monospace" font-size="12" fill="#777">CURRENT STREAK</text>
+<text x="60" y="175" font-family="monospace" font-size="30" font-weight="700" fill="#111">3 days</text>
+<rect x="455" y="100" width="410" height="90" rx="8" fill="#fafafa" stroke="#e4e4e4"/>
+<text x="480" y="135" font-family="monospace" font-size="12" fill="#777">LONGEST STREAK</text>
+<text x="480" y="175" font-family="monospace" font-size="30" font-weight="700" fill="#111">21 days</text>
+<rect x="35" y="220" width="410" height="90" rx="8" fill="#fafafa" stroke="#e4e4e4"/>
+<text x="60" y="255" font-family="monospace" font-size="12" fill="#777">CONTRIBUTIONS</text>
+<text x="60" y="295" font-family="monospace" font-size="30" font-weight="700" fill="#111">659</text>
+<rect x="455" y="220" width="410" height="90" rx="8" fill="#fafafa" stroke="#e4e4e4"/>
+<text x="480" y="255" font-family="monospace" font-size="12" fill="#777">ACTIVE DAYS</text>
+<text x="480" y="295" font-family="monospace" font-size="30" font-weight="700" fill="#111">302</text>
+<rect x="35" y="340" width="410" height="90" rx="8" fill="#fafafa" stroke="#e4e4e4"/>
+<text x="60" y="375" font-family="monospace" font-size="12" fill="#777">BEST DAY</text>
+<text x="60" y="415" font-family="monospace" font-size="30" font-weight="700" fill="#111">11</text>
+<rect x="455" y="340" width="410" height="90" rx="8" fill="#fafafa" stroke="#e4e4e4"/>
+<text x="480" y="375" font-family="monospace" font-size="12" fill="#777">AVG / ACTIVE DAY</text>
+<text x="480" y="415" font-family="monospace" font-size="30" font-weight="700" fill="#111">2.2</text>
+<text x="35" y="520" font-family="monospace" font-size="13" fill="#555">MONTHLY CONTRIBUTIONS</text>
+<rect x="42" y="701.4" width="45" height="128.6" rx="4" fill="#111"><title>2025-11: 46</title></rect>
+<text x="64" y="855" text-anchor="middle" font-family="monospace" font-size="11" fill="#666">11</text>
+<rect x="112" y="673.4" width="45" height="156.6" rx="4" fill="#111"><title>2025-12: 56</title></rect>
+<text x="134" y="855" text-anchor="middle" font-family="monospace" font-size="11" fill="#666">12</text>
+<rect x="182" y="712.6" width="45" height="117.4" rx="4" fill="#111"><title>2026-01: 42</title></rect>
+<text x="204" y="855" text-anchor="middle" font-family="monospace" font-size="11" fill="#666">01</text>
+<rect x="252" y="712.6" width="45" height="117.4" rx="4" fill="#111"><title>2026-02: 42</title></rect>
+<text x="274" y="855" text-anchor="middle" font-family="monospace" font-size="11" fill="#666">02</text>
+<rect x="322" y="667.8" width="45" height="162.2" rx="4" fill="#111"><title>2026-03: 58</title></rect>
+<text x="344" y="855" text-anchor="middle" font-family="monospace" font-size="11" fill="#666">03</text>
+<rect x="392" y="707.0" width="45" height="123.0" rx="4" fill="#111"><title>2026-04: 44</title></rect>
+<text x="414" y="855" text-anchor="middle" font-family="monospace" font-size="11" fill="#666">04</text>
+<rect x="462" y="704.2" width="45" height="125.8" rx="4" fill="#111"><title>2026-05: 45</title></rect>
+<text x="484" y="855" text-anchor="middle" font-family="monospace" font-size="11" fill="#666">05</text>
+<rect x="532" y="698.6" width="45" height="131.4" rx="4" fill="#111"><title>2026-06: 47</title></rect>
+<text x="554" y="855" text-anchor="middle" font-family="monospace" font-size="11" fill="#666">06</text>
+<rect x="602" y="662.3" width="45" height="167.7" rx="4" fill="#111"><title>2026-07: 60</title></rect>
+<text x="624" y="855" text-anchor="middle" font-family="monospace" font-size="11" fill="#666">07</text>
+<rect x="672" y="570.0" width="45" height="260.0" rx="4" fill="#111"><title>2026-08: 93</title></rect>
+<text x="694" y="855" text-anchor="middle" font-family="monospace" font-size="11" fill="#666">08</text>
+<rect x="742" y="651.1" width="45" height="178.9" rx="4" fill="#111"><title>2026-09: 64</title></rect>
+<text x="764" y="855" text-anchor="middle" font-family="monospace" font-size="11" fill="#666">09</text>
+<rect x="812" y="762.9" width="45" height="67.1" rx="4" fill="#111"><title>2026-10: 24</title></rect>
+<text x="834" y="855" text-anchor="middle" font-family="monospace" font-size="11" fill="#666">10</text>
+<text x="35" y="905" font-family="monospace" font-size="12" fill="#777">afzal@github:~$ <tspan fill="#111">echo "keep building"</tspan></text></svg>
