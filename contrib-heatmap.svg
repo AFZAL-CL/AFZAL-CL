@@ -375,6 +375,6 @@
 <rect x="854" y="94" width="13" height="13" rx="2" fill="#ebedf0" data-date="2026-10-06" data-count="0"/>
 <rect x="854" y="110" width="13" height="13" rx="2" fill="#c6e48b" data-date="2026-10-07" data-count="4"/>
 <rect x="854" y="126" width="13" height="13" rx="2" fill="#c6e48b" data-date="2026-10-08" data-count="5"/>
-<rect x="854" y="142" width="13" height="13" rx="2" fill="#c6e48b" data-date="2026-10-09" data-count="4"/>
+<rect x="854" y="142" width="13" height="13" rx="2" fill="#7bc96f" data-date="2026-10-09" data-count="6"/>
 <style>@media (prefers-reduced-motion:no-preference) { rect[data-date] { opacity:0; animation: pop .18s ease-out forwards; } @keyframes pop { to { opacity:1; } } }</style>
 </svg>
